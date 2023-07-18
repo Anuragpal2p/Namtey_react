@@ -1,0 +1,27 @@
+Webback, parcel, ===== bundlers
+
+
+===================================================================================================================
+NPM is not a node package manager it just manages the packages that's all. 
+
+ (npm install -D parcel) ==> -D is  a flag which stands for Dev dependencies
+two type of dependencies ==>  
+ 1.) Web dependency   = when we developing an app then we require Web dependencies. 
+ 2.)Normal dependency == It is used in Production.
+
+===================================================================================================================
+
+tilde(~) && caret (^) in  => "version": " ^1.0.0",
+
+when we use ^ in version then when minor version upgrade is out it will automaticaly update its version in package.json file
+when we use ~ (tilde) it will automaitcally updated the major version whi  ch might be risky or break our app causes bugs.
+===================================================================================================================
+
+ 
+Node moudles ==  it is much heavy bcz it stored many modules which are dependent to each other called (transitive dependencies)
+
+===================================================================================================================
+
+npx parcel index.html ==== we are building our app, by doing this our app is running on local Production
+1.)==> npx means executing a package
+
